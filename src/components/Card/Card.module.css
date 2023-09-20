@@ -5,6 +5,28 @@
   width: 200px;
 }
 
+@media (max-width: 1296px) {
+  .front:empty,
+  .back:empty {
+    max-width: 200px;
+    padding-bottom: 200px;
+  }
+}
+@media (max-width: 992px) {
+  .front:empty,
+  .back:empty {
+    max-width: 200px;
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .front:empty,
+  .back:empty {
+    max-width: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 .card .front:empty {
   transform: rotateY(90deg);
   transition: all ease-in 0.2s;

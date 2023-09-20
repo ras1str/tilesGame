@@ -1,4 +1,20 @@
-.container{
+.container {
   width: 1296px;
   margin: 0 auto;
+}
+
+@media (max-width: 1296px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 500px;
+  }
 }
