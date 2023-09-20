@@ -18,13 +18,13 @@ interface State {
 const initialState: State = {
   colors: [
     { color: 'black' },
-    { color: 'yellow' },
-    { color: 'blue' },
+    { color: '#A33344' },
+    { color: '#F69189' },
     { color: 'orange' },
     { color: 'green' },
-    { color: '#40E0D0' },
-    { color: '#DE3163' },
-    { color: '#800080' },
+    { color: '#40E0F0' },
+    { color: '#DEA163' },
+    { color: '#80A080' },
   ],
   card: [],
   opensCards: [],
