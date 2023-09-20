@@ -67,7 +67,9 @@ export const cardSlice = createSlice({
         } else {
           state.card[firsOpenCard].opened = false;
           state.card[secondOpenCard].opened = false;
-          state.score -= 10;
+          if (state.score >= 10) {
+            state.score -= 10;
+          }
         }
         state.opensCards = [];
       }
