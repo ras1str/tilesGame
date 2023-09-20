@@ -1,15 +1,15 @@
-.card{ 
-    background-color: aliceblue;
+.card {
+  background-color: aliceblue;
 }
-.container{
-    width: 1296px;
-    margin: 0 auto;
+.container {
+  width: 1296px;
+  margin: 0 auto;
 }
-.cardGrid{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
+.cardGrid {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }

@@ -1,28 +1,26 @@
 .front:empty,
-    .back:empty{ 
-    display: block;
-    padding-bottom: 200px;
-    width: 200px;
-
+.back:empty {
+  display: block;
+  padding-bottom: 200px;
+  width: 200px;
 }
 
-.card .front:empty{
-    transform: rotateY(90deg);
-    transition: all ease-in 0.2s;
-    position: absolute;
+.card .front:empty {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
 }
 
-.opened .front:empty{ 
-    transform: rotateY(0deg);
-    
+.opened .front:empty {
+  transform: rotateY(0deg);
 }
 
-.card .back:empty{
-    transition: all ease-in 0.2s;
-    transition-delay: 0.2s;
+.card .back:empty {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
 }
 
-.opened .back:empty{
-    transform: rotateY(90deg);
-    transition-delay: 0s;
+.opened .back:empty {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
 }
